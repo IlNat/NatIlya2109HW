@@ -46,25 +46,13 @@ public class Web
     }
 
     // Получение полей класса.
-    public string? returnName
-    {
-        get { return name; }
-    }
+    public string? returnName => name;
 
-    public string? returnPathToWeb
-    {
-        get { return pathToWeb; }
-    }
+    public string? returnPathToWeb => pathToWeb; 
 
-    public string? returnAboutWeb
-    {
-        get { return aboutWeb; }
-    }
+    public string? returnAboutWeb => aboutWeb; 
 
-    public string? returnIpWeb
-    {
-        get { return ipWeb; }
-    }
+    public string? returnIpWeb => ipWeb; 
 }
 
 // Класс "Журнал".
@@ -97,30 +85,15 @@ public class Journal
     }
 
     // Получение полей класса.
-    public string? returnName
-    {
-        get { return name; }
-    }
+    public string? returnName => name;
     
-    public string? ReturnYearOfFoundation
-    {
-        get { return yearOfFoundation; }
-    }
+    public string? ReturnYearOfFoundation => yearOfFoundation;
 
-    public string? returnAboutJournal
-    {
-        get { return aboutJournal; }
-    }
+    public string? returnAboutJournal => aboutJournal; 
 
-    public string? returnContactEmail
-    {
-        get { return contactEmail; }
-    }
+    public string? returnContactEmail => contactEmail;
 
-    public string? returnContactPhone
-    {
-        get { return contactPhone; }
-    }
+    public string? returnContactPhone => contactPhone;
 }
 
 // Класс "Магазин".
@@ -153,30 +126,16 @@ public class Shop
     }
 
     // Получение полей класса.
-    public string? returnName
-    {
-        get { return name; }
-    }
+    public string? returnName => name;
 
-    public string? ReturnAdress
-    {
-        get { return adress; }
-    }
+    public string? ReturnAdress => adress;
 
-    public string? returnAboutShop
-    {
-        get { return aboutShop; }
-    }
+    public string? returnAboutShop => aboutShop;
 
-    public string? returnContactEmail
-    {
-        get { return contactEmail; }
-    }
+    public string? returnContactEmail => contactEmail;
 
-    public string? returnContactPhone
-    {
-        get { return contactPhone; }
-    }
+    public string? returnContactPhone => contactPhone;
+    
 }
 
 public class Program
